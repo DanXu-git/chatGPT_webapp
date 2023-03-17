@@ -16,19 +16,19 @@ format:
 
 website:
   title: "chatgpt-webapp"
-  site-url: "https://biomarker.github.io/chatgpt-webapp"
+  site-url: "https://danxu.github.io/chatgpt-webapp"
   description: "Deploy a webapp chatbot of chatGPT with openAI API Key and gradio"
   twitter-card: true
   open-graph: true
   repo-branch: master
-  repo-url: "https://github.com/biomarker/chatgpt-webapp"
+  repo-url: "https://github.com/danxu/chatgpt-webapp"
   repo-actions: [issue]
   navbar:
     background: primary
     search: true
     right:
       - icon: github
-        href: "https://github.com/biomarker/chatgpt-webapp"
+        href: "https://github.com/danxu/chatgpt-webapp"
   sidebar:
     style: "floating"
 
