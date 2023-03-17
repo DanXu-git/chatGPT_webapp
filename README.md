@@ -28,6 +28,9 @@ chatgpt_webapp/chatGPT_webapp.py \
 chatGPT_webapp.py --help # for usage
 ```
 
+GitHub Page Document:  
+https://danxu-git.github.io/chatGPT_webapp/
+
 ## for Chinese user, 中国用户指引
 
 [注册openAI账号教程链接](https://sms-activate.org/cn/info/ChatGPT)
