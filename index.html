@@ -229,16 +229,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <section id="install" class="level2">
 <h2 class="anchored" data-anchor-id="install">Install</h2>
 <div class="sourceCode" id="cb1"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install openai, gradio, fire</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install chatgpt_webapp</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/DanXu-git/chatGPT_webapp</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="how-to-use" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-use">How to use</h2>
-<div class="sourceCode" id="cb2"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">chatGPT_webapp.py</span> <span class="at">--help</span> <span class="co"># show usage</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ex">chatGPT_Webapp.py</span> <span class="dt">\</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>--IP [your server IP, e.g 10.10.10.199] <span class="dt">\</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>--Port 5010[default] <span class="dt">\</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>--model_engine <span class="st">'gpt-3.5-turbo'</span>[default]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> chatGPT_webapp </span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">chatgpt_webapp/chatGPT_webapp.py</span> <span class="dt">\</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>--IP [your server IP, e.g 10.10.10.199] <span class="dt">\</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>--Port 5010[default] <span class="dt">\</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>--model_engine <span class="st">'gpt-3.5-turbo'</span>[default]</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="ex">chatGPT_webapp.py</span> <span class="at">--help</span> <span class="co"># for usage</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="for-chinese-user-中国用户指引" class="level2">
 <h2 class="anchored" data-anchor-id="for-chinese-user-中国用户指引">for Chinese user, 中国用户指引</h2>
@@ -246,7 +248,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>申请openAI API Key:<br>
 &gt;登陆账号后点击右上角personal个人头像 -&gt; View API keys -&gt; create new secret key,<br>
 &gt;复制key创建一个环境变量， export OPENAI_API_KEY=$your_key</p>
-<p>申请虚拟信用卡: <a href="https://depay.depay.one/web-app/register-h5?invitCode=536282&amp;lang=en-us">https://depay.depay.one</a></p>
+<p>申请虚拟信用卡(API key有免费额度，超出支付用): <a href="https://depay.depay.one/web-app/register-h5?invitCode=536282&amp;lang=en-us">https://depay.depay.one</a></p>
 
 
 </section>

@@ -11,21 +11,21 @@
     "href": "index.html#install",
     "title": "chatgpt-webapp",
     "section": "Install",
-    "text": "Install\npip install openai, gradio, fire\npip install chatgpt_webapp"
+    "text": "Install\npip install openai, gradio, fire\n\ngit clone https://github.com/DanXu-git/chatGPT_webapp"
   },
   {
     "objectID": "index.html#how-to-use",
     "href": "index.html#how-to-use",
     "title": "chatgpt-webapp",
     "section": "How to use",
-    "text": "How to use\nchatGPT_webapp.py --help # show usage\n\nchatGPT_Webapp.py \\\n--IP [your server IP, e.g 10.10.10.199] \\\n--Port 5010[default] \\\n--model_engine 'gpt-3.5-turbo'[default]"
+    "text": "How to use\ncd chatGPT_webapp \nchatgpt_webapp/chatGPT_webapp.py \\\n--IP [your server IP, e.g 10.10.10.199] \\\n--Port 5010[default] \\\n--model_engine 'gpt-3.5-turbo'[default]\n\nchatGPT_webapp.py --help # for usage"
   },
   {
     "objectID": "index.html#for-chinese-user-中国用户指引",
     "href": "index.html#for-chinese-user-中国用户指引",
     "title": "chatgpt-webapp",
     "section": "for Chinese user, 中国用户指引",
-    "text": "for Chinese user, 中国用户指引\n注册openAI账号教程链接\n申请openAI API Key:\n>登陆账号后点击右上角personal个人头像 -> View API keys -> create new secret key,\n>复制key创建一个环境变量， export OPENAI_API_KEY=$your_key\n申请虚拟信用卡: https://depay.depay.one"
+    "text": "for Chinese user, 中国用户指引\n注册openAI账号教程链接\n申请openAI API Key:\n>登陆账号后点击右上角personal个人头像 -> View API keys -> create new secret key,\n>复制key创建一个环境变量， export OPENAI_API_KEY=$your_key\n申请虚拟信用卡(API key有免费额度，超出支付用): https://depay.depay.one"
   },
   {
     "objectID": "chatGPT_webapp.html",
