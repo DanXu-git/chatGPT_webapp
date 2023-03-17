@@ -37,5 +37,5 @@ chatGPT_webapp.py --help # for usage
 secret key,  
 \>复制key创建一个环境变量， export OPENAI_API_KEY=\$your_key
 
-申请虚拟信用卡:
+申请虚拟信用卡(API key有免费额度，超出支付用):
 [https://depay.depay.one](https://depay.depay.one/web-app/register-h5?invitCode=536282&lang=en-us)
