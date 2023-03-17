@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "chatgpt-webapp",
+    "section": "",
+    "text": "You may need two things below, for Chinese people I’ll list the tutorial at the end: 1. An openAI API Key, maybe a VPN to apply one. And set a environment variable named OPENAI_API_KEY to store it. 2. A credit card not applied in China sovereign area if big usage is expected."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "chatgpt-webapp",
+    "section": "Install",
+    "text": "Install\npip install openai, gradio, fire\npip install chatgpt_webapp"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "chatgpt-webapp",
+    "section": "How to use",
+    "text": "How to use\nchatGPT_webapp.py --help # show usage\n\nchatGPT_Webapp.py \\\n--IP [your server IP, e.g 10.10.10.199] \\\n--Port 5010[default] \\\n--model_engine 'gpt-3.5-turbo'[default]"
+  },
+  {
+    "objectID": "index.html#for-chinese-user-中国用户指引",
+    "href": "index.html#for-chinese-user-中国用户指引",
+    "title": "chatgpt-webapp",
+    "section": "for Chinese user, 中国用户指引",
+    "text": "for Chinese user, 中国用户指引\n注册openAI账号教程链接\n申请openAI API Key:\n>登陆账号后点击右上角personal个人头像 -> View API keys -> create new secret key,\n>复制key创建一个环境变量， export OPENAI_API_KEY=$your_key\n申请虚拟信用卡: https://depay.depay.one"
+  },
+  {
+    "objectID": "chatGPT_webapp.html",
+    "href": "chatGPT_webapp.html",
+    "title": "chatGPT webapp",
+    "section": "",
+    "text": "source\n\napp\n\n app (IP, Port=5010, model_engine='gpt-3.5-turbo')\n\nLaunch a local web server of chatGPT\nES: –IP your server IP –Port the port you want to use | default=5010 –model_engine the LLM engine you use from openAI | default=‘gpt-3.5-turbo’\n\nsource\n\n\ngenerate_response\n\n generate_response (model_engine, messages)\n\nDeliver the messages to openAI and get a response\n\n# #| export\n# if __name__ == \"__main__\":\n#     fire.Fire(app)"
+  }
+]
