@@ -12,18 +12,20 @@ not applied in China sovereign area if big usage is expected.
 
 ``` sh
 pip install openai, gradio, fire
-pip install chatgpt_webapp
+
+git clone https://github.com/DanXu-git/chatGPT_webapp
 ```
 
 ## How to use
 
 ``` sh
-chatGPT_webapp.py --help # show usage
-
-chatGPT_Webapp.py \
+cd chatGPT_webapp 
+chatgpt_webapp/chatGPT_webapp.py \
 --IP [your server IP, e.g 10.10.10.199] \
 --Port 5010[default] \
 --model_engine 'gpt-3.5-turbo'[default]
+
+chatGPT_webapp.py --help # for usage
 ```
 
 ## for Chinese user, 中国用户指引

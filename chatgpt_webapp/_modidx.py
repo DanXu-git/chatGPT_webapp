@@ -8,5 +8,4 @@ d = { 'settings': { 'branch': 'master',
   'syms': { 'chatgpt_webapp.chatGPT_webapp': { 'chatgpt_webapp.chatGPT_webapp.app': ( 'chatgpt_webapp.html#app',
                                                                                       'chatgpt_webapp/chatGPT_webapp.py'),
                                                'chatgpt_webapp.chatGPT_webapp.generate_response': ( 'chatgpt_webapp.html#generate_response',
-                                                                                                    'chatgpt_webapp/chatGPT_webapp.py')},
-            'chatgpt_webapp.core': {'chatgpt_webapp.core.foo': ('core.html#foo', 'chatgpt_webapp/core.py')}}}
+                                                                                                    'chatgpt_webapp/chatGPT_webapp.py')}}}
