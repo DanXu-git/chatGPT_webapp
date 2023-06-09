@@ -18,7 +18,7 @@ pip install openai, gradio, fire
 git clone https://github.com/DanXu-git/chatGPT_webapp
 ```
 
-## How to use
+## Usage
 
 ``` sh
 cd chatGPT_webapp
